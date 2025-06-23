@@ -2,11 +2,25 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navigation ul{
+  display: flex;
+  gap: 1rem;
+  list-style: none;
 }
 
+.navigation li{
+  font-size:8px;
+}
+.header-grid{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding-left: 35px;
+  gap: 10px;
+}
+img{
+  width: 100px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
