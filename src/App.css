@@ -21,6 +21,54 @@
 img{
   width: 100px;
 }
+section{
+  background-color: #495E57 ;
+  height: 100px;
+}
+.main-section{
+  line-height: 0px;
+  flex: 1;
+  padding: 50px;
+}
+
+.main-section h4{
+  color: #F4CE14 ;
+  font-family:'Times New Roman', Times, serif ;
+  font-weight: lighter;
+  margin-bottom: 0.2rem;
+}
+.main-section h6{
+  color: white;
+  font-weight: normal;
+  font-size: xx-small;
+  margin-top: 1rem;
+}
+p{
+  font-size:5px;
+  color: white;
+  line-height: 1.5;
+
+}
+
+
+button{
+  background-color: #F4CE14;
+  border-radius: 8px;
+  border: 0;
+  width: 70px;
+  height: 15px;
+  font-size: 6px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+
+
+
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
