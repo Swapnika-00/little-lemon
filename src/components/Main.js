@@ -19,7 +19,7 @@ function Main() {
           <img
             src="/restauranfood.jpg"
             alt="food item"
-            style={{ maxWidth: "300px", borderRadius: "8px"}}
+            style={{ maxWidth: "190px",maxHeight:"130px", borderRadius: "8px", margin: "52px", marginTop: "90px"}}
           />
         </aside>
       </section>

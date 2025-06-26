@@ -4,6 +4,7 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 import ReserveATable from './components/ReserveATable'
 import { Routes, Route } from 'react-router-dom';
+import WeekSpecials from './components/WeekSpecials';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/reservetable" element={<ReserveATable />} />
       </Routes>
+  <WeekSpecials/>
   <Footer/>
   </>
   );
