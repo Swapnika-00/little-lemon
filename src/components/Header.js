@@ -2,7 +2,7 @@ function Header() {
     return (
         <>
         <header className="header-grid">
-            <img src="/Logo.svg" alt="littlelemonlogo" />
+            <img className="header-image" src="/Logo.svg" alt="littlelemonlogo" />
         <nav className="navigation">
             <ul>
                 <li><a href="https://www.google.com/">Home</a></li>
